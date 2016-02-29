@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+  
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find centaur_demo_ui)/rviz/rviz_default.rviz"  output="screen"/>
+  
+</launch>

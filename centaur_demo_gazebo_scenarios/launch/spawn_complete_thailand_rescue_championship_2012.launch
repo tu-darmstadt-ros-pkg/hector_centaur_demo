@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<launch>
+  
+  <include file="$(find hector_nist_arena_worlds)/launch/thailand_robot_championship_2012_default.launch">
+     <arg name="gazebo_args" value="-u"/>
+   </include>   
+
+  
+  <include file="$(find hector_centaur_gazebo)/launch/spawn_centaur_default_with_controllers.launch" />
+  
+   <include file="$(find hector_centaur_onboard)/launch/onboard_reduced.launch" />
+</launch>
+

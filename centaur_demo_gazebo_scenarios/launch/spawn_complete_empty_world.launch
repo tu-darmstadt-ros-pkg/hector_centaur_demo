@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+  
+  <include file="$(find hector_centaur_gazebo)/launch/start_centaur_default_with_controllers.launch" />
+  
+   <include file="$(find hector_centaur_onboard)/launch/onboard_reduced.launch" />
+</launch>
+
